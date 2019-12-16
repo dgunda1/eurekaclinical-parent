@@ -250,12 +250,12 @@
                 <plugin>
                     <groupId>org.codehaus.cargo</groupId>
                     <artifactId>cargo-maven2-plugin</artifactId>
-                    <version>1.7.7</version>
+                    <version>1.7.9</version>
                     <configuration>
                         <container>
-                            <containerId>tomcat7x</containerId>
+                            <containerId>tomcat9x</containerId>
                             <zipUrlInstaller>
-                                <url>http://repo1.maven.org/maven2/org/apache/tomcat/tomcat/7.0.53/tomcat-7.0.53.zip</url>
+                                <url>http://repo1.maven.org/maven2/org/apache/tomcat/tomcat/9.0.30/tomcat-9.0.30.zip</url>
                             </zipUrlInstaller>
                             <dependencies>
                                 <dependency>
